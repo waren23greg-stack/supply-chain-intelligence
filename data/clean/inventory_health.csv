@@ -1,0 +1,201 @@
+product_id,product_name,category,unit_price,reorder_level,warehouse_location,quantity_in_stock,stock_status,stock_value
+1,Maximize Holistic Functionalities,Packaging,229.59,43,Warehouse D,469,Healthy,107677.71
+2,Redefine Distributed Synergies,Packaging,256.3,23,Warehouse C,92,Healthy,23579.600000000002
+3,Iterate Rich Functionalities,Raw Materials,421.63,74,Warehouse D,325,Healthy,137029.75
+4,Synthesize Next-Generation Platforms,Packaging,80.66,30,Warehouse D,496,Healthy,40007.36
+5,Engineer Customized Bandwidth,Chemicals,459.65,86,Warehouse A,240,Healthy,110316.0
+6,Iterate Transparent Infrastructures,Machinery,14.64,56,Warehouse C,209,Healthy,3059.76
+7,Re-Contextualize Efficient Info-Mediaries,Packaging,33.67,82,Warehouse C,164,Healthy,5521.88
+8,Strategize Integrated E-Commerce,Electronics,367.29,18,Warehouse A,439,Healthy,161240.31
+9,Revolutionize User-Centric Communities,Chemicals,384.09,26,Warehouse B,168,Healthy,64527.119999999995
+10,Reinvent Back-End Vortals,Machinery,473.69,31,Warehouse D,355,Healthy,168159.95
+11,Whiteboard World-Class Mindshare,Chemicals,436.85,64,Warehouse D,147,Healthy,64216.950000000004
+12,Empower World-Class Web-Readiness,Chemicals,378.86,98,Warehouse D,416,Healthy,157605.76
+13,Extend Plug-And-Play Relationships,Raw Materials,202.5,95,Warehouse A,232,Healthy,46980.0
+14,Transition Mission-Critical Experiences,Raw Materials,221.86,76,Warehouse A,161,Healthy,35719.46
+15,Re-Contextualize Next-Generation Schemas,Electronics,127.71,18,Warehouse C,165,Healthy,21072.149999999998
+16,Enhance Plug-And-Play Convergence,Electronics,296.21,39,Warehouse A,496,Healthy,146920.16
+17,Matrix E-Business Functionalities,Packaging,8.56,100,Warehouse D,442,Healthy,3783.5200000000004
+18,Benchmark Collaborative Relationships,Electronics,118.33,14,Warehouse A,336,Healthy,39758.88
+19,Evolve Killer Schemas,Electronics,259.51,45,Warehouse D,211,Healthy,54756.61
+20,Reinvent Real-Time E-Services,Machinery,111.05,26,Warehouse A,96,Healthy,10660.8
+21,Enable Proactive E-Markets,Chemicals,290.22,41,Warehouse C,318,Healthy,92289.96
+22,Aggregate Viral Web Services,Machinery,99.25,22,Warehouse D,320,Healthy,31760.0
+23,Mesh Compelling Niches,Machinery,180.38,62,Warehouse D,389,Healthy,70167.81999999999
+24,Seize Extensible Networks,Electronics,338.32,92,Warehouse A,104,Adequate,35185.28
+25,Cultivate Rich Architectures,Electronics,204.3,53,Warehouse C,281,Healthy,57408.3
+26,Utilize Killer Channels,Packaging,99.84,78,Warehouse B,474,Healthy,47324.16
+27,Maximize Open-Source Bandwidth,Packaging,213.83,45,Warehouse C,224,Healthy,47897.920000000006
+28,Integrate E-Business Eyeballs,Packaging,437.87,19,Warehouse D,62,Healthy,27147.94
+29,Strategize Magnetic Action-Items,Chemicals,53.46,93,Warehouse A,498,Healthy,26623.08
+30,Facilitate Rich Paradigms,Electronics,484.65,40,Warehouse B,363,Healthy,175927.94999999998
+31,Harness Dynamic Interfaces,Machinery,245.39,37,Warehouse B,159,Healthy,39017.009999999995
+32,Harness Frictionless Channels,Electronics,86.5,10,Warehouse A,282,Healthy,24393.0
+33,Optimize World-Class E-Markets,Raw Materials,463.63,68,Warehouse D,47,Reorder,21790.61
+34,Strategize 24/7 Models,Machinery,349.81,81,Warehouse B,430,Healthy,150418.3
+35,Mesh Viral Solutions,Machinery,81.62,47,Warehouse A,236,Healthy,19262.32
+36,Revolutionize Efficient Channels,Electronics,291.69,79,Warehouse A,331,Healthy,96549.39
+37,E-Enable Turn-Key Niches,Raw Materials,33.3,84,Warehouse B,255,Healthy,8491.5
+38,Synergize Magnetic Eyeballs,Chemicals,460.1,77,Warehouse C,260,Healthy,119626.0
+39,Revolutionize Back-End Platforms,Electronics,480.59,20,Warehouse C,212,Healthy,101885.08
+40,Utilize Enterprise Convergence,Electronics,299.54,96,Warehouse D,241,Healthy,72189.14
+41,Envisioneer Synergistic Metrics,Machinery,64.34,82,Warehouse B,233,Healthy,14991.220000000001
+42,Syndicate Turn-Key Initiatives,Chemicals,299.29,89,Warehouse B,196,Healthy,58660.840000000004
+43,Enhance World-Class Models,Machinery,330.4,82,Warehouse B,471,Healthy,155618.4
+44,Redefine Customized Supply-Chains,Raw Materials,467.68,36,Warehouse B,442,Healthy,206714.56
+45,Synergize Interactive Roi,Raw Materials,123.15,60,Warehouse A,141,Healthy,17364.15
+46,Repurpose Intuitive Eyeballs,Raw Materials,231.33,19,Warehouse D,174,Healthy,40251.420000000006
+47,Streamline E-Business Bandwidth,Machinery,312.47,82,Warehouse C,420,Healthy,131237.40000000002
+48,Incubate Proactive E-Business,Electronics,271.13,74,Warehouse A,144,Healthy,39042.72
+49,Matrix Real-Time Action-Items,Packaging,466.96,18,Warehouse C,428,Healthy,199858.88
+50,Incentivize Intuitive Functionalities,Raw Materials,146.07,66,Warehouse D,443,Healthy,64709.009999999995
+51,Mesh Cross-Platform Synergies,Raw Materials,307.78,93,Warehouse B,228,Healthy,70173.84
+52,Visualize Real-Time Paradigms,Electronics,335.59,80,Warehouse D,176,Healthy,59063.84
+53,Incentivize Front-End Interfaces,Electronics,469.77,27,Warehouse C,282,Healthy,132475.13999999998
+54,Deliver Global Bandwidth,Electronics,445.41,80,Warehouse D,233,Healthy,103780.53
+55,Engage Next-Generation Schemas,Raw Materials,144.47,36,Warehouse C,445,Healthy,64289.15
+56,Seize Collaborative E-Services,Raw Materials,105.78,91,Warehouse B,357,Healthy,37763.46
+57,Innovate B2C Eyeballs,Chemicals,246.82,16,Warehouse B,292,Healthy,72071.44
+58,Scale Scalable E-Business,Machinery,415.53,15,Warehouse D,119,Healthy,49448.07
+59,Iterate Enterprise E-Services,Raw Materials,386.7,91,Warehouse D,22,Critical,8507.4
+60,Transition Scalable Synergies,Packaging,371.91,80,Warehouse C,381,Healthy,141697.71000000002
+61,Enhance Extensible Functionalities,Machinery,282.65,24,Warehouse D,361,Healthy,102036.65
+62,Empower Vertical Supply-Chains,Packaging,275.07,57,Warehouse D,197,Healthy,54188.79
+63,Matrix Virtual Methodologies,Chemicals,78.31,26,Warehouse B,253,Healthy,19812.43
+64,Extend Distributed Info-Mediaries,Raw Materials,185.5,15,Warehouse A,64,Healthy,11872.0
+65,Engage Visionary Synergies,Packaging,342.62,95,Warehouse C,445,Healthy,152465.9
+66,Integrate Strategic Systems,Raw Materials,391.16,62,Warehouse A,447,Healthy,174848.52000000002
+67,Cultivate Extensible Markets,Packaging,463.25,40,Warehouse D,51,Adequate,23625.75
+68,Innovate Visionary Methodologies,Packaging,441.3,13,Warehouse D,7,Reorder,3089.1
+69,Benchmark Cross-Platform Convergence,Raw Materials,392.28,62,Warehouse B,209,Healthy,81986.51999999999
+70,Extend Interactive Infrastructures,Packaging,137.07,99,Warehouse B,38,Critical,5208.66
+71,Streamline Scalable Systems,Machinery,436.72,70,Warehouse D,400,Healthy,174688.0
+72,Iterate Synergistic E-Services,Packaging,409.21,68,Warehouse C,173,Healthy,70793.33
+73,Integrate Dot-Com Infrastructures,Raw Materials,411.17,39,Warehouse D,332,Healthy,136508.44
+74,E-Enable World-Class Relationships,Electronics,331.72,61,Warehouse A,436,Healthy,144629.92
+75,Innovate Enterprise Solutions,Raw Materials,432.85,45,Warehouse C,436,Healthy,188722.6
+76,Monetize Ubiquitous Users,Chemicals,202.84,78,Warehouse D,488,Healthy,98985.92
+77,Implement Rich Networks,Electronics,62.09,43,Warehouse C,320,Healthy,19868.800000000003
+78,Exploit Turn-Key Channels,Chemicals,481.45,43,Warehouse D,446,Healthy,214726.69999999998
+79,Synergize Next-Generation Web Services,Electronics,300.3,54,Warehouse A,316,Healthy,94894.8
+80,Incentivize Bricks-And-Clicks Applications,Raw Materials,221.01,75,Warehouse A,120,Healthy,26521.199999999997
+81,Aggregate Web-Enabled Systems,Machinery,450.25,34,Warehouse C,116,Healthy,52229.0
+82,Syndicate Plug-And-Play Markets,Electronics,355.85,10,Warehouse A,222,Healthy,78998.70000000001
+83,Streamline Interactive Portals,Chemicals,344.99,95,Warehouse A,389,Healthy,134201.11000000002
+84,Brand Virtual Paradigms,Raw Materials,218.49,95,Warehouse A,227,Healthy,49597.23
+85,Productize Bleeding-Edge Vortals,Chemicals,160.39,25,Warehouse B,355,Healthy,56938.45
+86,Target Out-Of-The-Box Web Services,Raw Materials,256.03,95,Warehouse C,462,Healthy,118285.85999999999
+87,Revolutionize Plug-And-Play Eyeballs,Raw Materials,204.19,47,Warehouse A,23,Critical,4696.37
+88,Implement Leading-Edge Web-Readiness,Packaging,99.96,95,Warehouse C,407,Healthy,40683.719999999994
+89,Seize Real-Time Technologies,Packaging,309.68,48,Warehouse A,150,Healthy,46452.0
+90,Disintermediate Strategic Infrastructures,Chemicals,417.69,48,Warehouse C,191,Healthy,79778.79
+91,Unleash Rich Deliverables,Packaging,217.79,84,Warehouse D,74,Reorder,16116.46
+92,Revolutionize Seamless Applications,Raw Materials,235.17,66,Warehouse B,271,Healthy,63731.07
+93,Benchmark Seamless Initiatives,Packaging,258.03,31,Warehouse D,289,Healthy,74570.67
+94,Benchmark Back-End E-Business,Electronics,145.47,94,Warehouse B,87,Reorder,12655.89
+95,Streamline Dynamic Synergies,Chemicals,170.92,40,Warehouse B,40,Reorder,6836.799999999999
+96,Deliver Vertical Paradigms,Raw Materials,116.2,35,Warehouse D,317,Healthy,36835.4
+97,Cultivate Enterprise Schemas,Electronics,27.88,70,Warehouse B,254,Healthy,7081.5199999999995
+98,Synergize 24/7 Models,Electronics,230.43,90,Warehouse B,118,Adequate,27190.74
+99,Engineer Seamless Networks,Packaging,360.58,59,Warehouse D,326,Healthy,117549.08
+100,Extend Clicks-And-Mortar Bandwidth,Machinery,125.77,93,Warehouse C,235,Healthy,29555.95
+101,Enable Virtual Niches,Electronics,446.87,23,Warehouse C,341,Healthy,152382.67
+102,Optimize Robust Channels,Machinery,113.33,99,Warehouse A,460,Healthy,52131.799999999996
+103,Utilize 24/365 Bandwidth,Machinery,29.86,41,Warehouse D,461,Healthy,13765.46
+104,Embrace Compelling Vortals,Machinery,71.0,69,Warehouse C,346,Healthy,24566.0
+105,Utilize Killer Supply-Chains,Chemicals,494.01,86,Warehouse B,37,Critical,18278.37
+106,Productize Dot-Com Functionalities,Machinery,308.26,74,Warehouse D,483,Healthy,148889.58
+107,Synergize Cutting-Edge Vortals,Chemicals,225.73,30,Warehouse C,300,Healthy,67719.0
+108,Envisioneer Cutting-Edge Relationships,Machinery,227.78,41,Warehouse C,327,Healthy,74484.06
+109,Re-Contextualize Value-Added Deliverables,Raw Materials,384.08,76,Warehouse D,353,Healthy,135580.24
+110,Deliver Visionary Portals,Packaging,140.93,19,Warehouse C,233,Healthy,32836.69
+111,E-Enable Sticky Bandwidth,Raw Materials,121.07,52,Warehouse C,101,Healthy,12228.07
+112,Synthesize Seamless Content,Chemicals,44.89,29,Warehouse D,436,Healthy,19572.04
+113,Strategize Seamless Schemas,Machinery,348.51,100,Warehouse D,54,Reorder,18819.54
+114,Harness Value-Added Interfaces,Electronics,210.36,52,Warehouse B,195,Healthy,41020.200000000004
+115,Expedite Integrated Niches,Machinery,210.81,36,Warehouse C,294,Healthy,61978.14
+116,Visualize User-Centric E-Services,Machinery,452.9,84,Warehouse C,358,Healthy,162138.19999999998
+117,Matrix Killer Solutions,Electronics,429.08,83,Warehouse C,11,Critical,4719.88
+118,Grow Granular Web-Readiness,Machinery,7.92,55,Warehouse D,140,Healthy,1108.8
+119,Maximize Leading-Edge Roi,Machinery,427.46,63,Warehouse A,289,Healthy,123535.93999999999
+120,Whiteboard Seamless Networks,Chemicals,400.93,38,Warehouse A,466,Healthy,186833.38
+121,Incubate Global Methodologies,Packaging,140.1,72,Warehouse D,426,Healthy,59682.6
+122,Cultivate Robust E-Markets,Machinery,171.38,96,Warehouse C,397,Healthy,68037.86
+123,Optimize Best-Of-Breed Mindshare,Packaging,421.05,26,Warehouse B,310,Healthy,130525.5
+124,Cultivate World-Class Paradigms,Chemicals,18.35,60,Warehouse C,112,Healthy,2055.2000000000003
+125,Mesh Proactive E-Commerce,Chemicals,333.18,20,Warehouse B,317,Healthy,105618.06
+126,Leverage Bricks-And-Clicks Models,Machinery,72.17,69,Warehouse C,347,Healthy,25042.99
+127,Extend Extensible Infrastructures,Electronics,133.78,51,Warehouse B,321,Healthy,42943.38
+128,Enhance Rich Action-Items,Machinery,166.79,58,Warehouse A,462,Healthy,77056.98
+129,Unleash Efficient Bandwidth,Machinery,129.87,20,Warehouse A,158,Healthy,20519.46
+130,Embrace Revolutionary Channels,Electronics,375.77,16,Warehouse D,17,Adequate,6388.09
+131,Enhance Plug-And-Play E-Services,Packaging,326.82,93,Warehouse C,374,Healthy,122230.68
+132,Harness Strategic Supply-Chains,Electronics,475.06,35,Warehouse B,46,Adequate,21852.76
+133,Deploy Compelling Paradigms,Chemicals,80.43,26,Warehouse C,167,Healthy,13431.810000000001
+134,Re-Contextualize Interactive E-Commerce,Electronics,284.16,37,Warehouse D,89,Healthy,25290.24
+135,Facilitate Vertical Users,Raw Materials,384.61,31,Warehouse B,67,Healthy,25768.870000000003
+136,Extend Web-Enabled E-Markets,Chemicals,482.05,24,Warehouse C,271,Healthy,130635.55
+137,Generate Open-Source Platforms,Packaging,482.54,23,Warehouse C,425,Healthy,205079.5
+138,Whiteboard Sticky Markets,Electronics,464.8,83,Warehouse B,131,Healthy,60888.8
+139,Synthesize Extensible Web Services,Machinery,201.34,35,Warehouse D,495,Healthy,99663.3
+140,Scale E-Business Initiatives,Chemicals,346.85,90,Warehouse C,382,Healthy,132496.7
+141,Iterate Virtual Experiences,Electronics,350.11,48,Warehouse C,411,Healthy,143895.21
+142,Grow Scalable Action-Items,Chemicals,403.74,82,Warehouse A,239,Healthy,96493.86
+143,Strategize Value-Added Communities,Raw Materials,268.71,94,Warehouse A,72,Reorder,19347.12
+144,Deliver Integrated Niches,Electronics,255.45,53,Warehouse B,440,Healthy,112398.0
+145,Generate Extensible Bandwidth,Machinery,412.05,23,Warehouse D,495,Healthy,203964.75
+146,Cultivate Front-End Channels,Raw Materials,319.61,68,Warehouse C,46,Reorder,14702.060000000001
+147,Envisioneer Back-End Platforms,Packaging,220.57,76,Warehouse D,7,Critical,1543.99
+148,Empower E-Business Metrics,Raw Materials,309.88,78,Warehouse C,274,Healthy,84907.12
+149,E-Enable Value-Added Content,Machinery,235.11,85,Warehouse A,232,Healthy,54545.520000000004
+150,Embrace Viral Applications,Raw Materials,426.6,21,Warehouse C,344,Healthy,146750.4
+151,Iterate Cross-Platform Niches,Machinery,125.71,69,Warehouse C,299,Healthy,37587.29
+152,Orchestrate Enterprise Metrics,Chemicals,335.75,53,Warehouse D,421,Healthy,141350.75
+153,Generate World-Class Experiences,Machinery,426.22,33,Warehouse C,55,Healthy,23442.100000000002
+154,Brand Visionary Partnerships,Packaging,180.64,43,Warehouse B,241,Healthy,43534.24
+155,Harness One-To-One Channels,Raw Materials,440.76,99,Warehouse A,317,Healthy,139720.91999999998
+156,Generate Open-Source Convergence,Chemicals,10.02,34,Warehouse C,468,Healthy,4689.36
+157,Mesh Out-Of-The-Box Initiatives,Packaging,361.44,72,Warehouse B,331,Healthy,119636.64
+158,Strategize Scalable Content,Packaging,346.85,92,Warehouse A,325,Healthy,112726.25000000001
+159,Integrate B2C Experiences,Machinery,226.85,12,Warehouse D,465,Healthy,105485.25
+160,Evolve Interactive Info-Mediaries,Raw Materials,114.69,98,Warehouse C,332,Healthy,38077.08
+161,Facilitate Bricks-And-Clicks Content,Raw Materials,333.66,57,Warehouse D,59,Adequate,19685.940000000002
+162,E-Enable Global Architectures,Chemicals,267.81,64,Warehouse B,23,Critical,6159.63
+163,Engage Cross-Platform Mindshare,Chemicals,168.74,99,Warehouse A,155,Healthy,26154.7
+164,Reinvent Interactive Convergence,Raw Materials,156.78,39,Warehouse D,59,Healthy,9250.02
+165,Aggregate B2C Infrastructures,Packaging,161.2,78,Warehouse A,120,Healthy,19344.0
+166,Innovate 24/365 Models,Packaging,99.81,71,Warehouse B,198,Healthy,19762.38
+167,Synthesize B2C Portals,Chemicals,488.42,77,Warehouse D,189,Healthy,92311.38
+168,Harness Vertical E-Business,Raw Materials,490.35,34,Warehouse D,300,Healthy,147105.0
+169,Target Revolutionary Platforms,Packaging,183.64,48,Warehouse B,453,Healthy,83188.92
+170,Optimize Clicks-And-Mortar Markets,Chemicals,67.66,15,Warehouse D,335,Healthy,22666.1
+171,Productize Out-Of-The-Box Methodologies,Chemicals,149.61,26,Warehouse A,426,Healthy,63733.86000000001
+172,Envisioneer Next-Generation E-Tailers,Machinery,55.78,11,Warehouse D,315,Healthy,17570.7
+173,Productize Bricks-And-Clicks Paradigms,Raw Materials,237.35,66,Warehouse D,480,Healthy,113928.0
+174,Enable Dot-Com Solutions,Packaging,482.92,42,Warehouse C,16,Critical,7726.72
+175,Transition Synergistic Relationships,Electronics,411.95,61,Warehouse C,111,Healthy,45726.45
+176,Synthesize Open-Source Action-Items,Electronics,290.63,97,Warehouse D,227,Healthy,65973.01
+177,Embrace Cross-Media Systems,Packaging,78.85,82,Warehouse B,437,Healthy,34457.45
+178,Cultivate Enterprise Markets,Electronics,496.99,25,Warehouse C,50,Healthy,24849.5
+179,Benchmark Innovative Interfaces,Machinery,305.13,89,Warehouse C,278,Healthy,84826.14
+180,Enhance 24/365 Portals,Chemicals,193.29,66,Warehouse C,31,Critical,5991.99
+181,E-Enable Revolutionary Relationships,Chemicals,495.07,49,Warehouse D,141,Healthy,69804.87
+182,Integrate Transparent Paradigms,Chemicals,34.81,22,Warehouse B,495,Healthy,17230.95
+183,Empower Real-Time Schemas,Packaging,314.63,43,Warehouse A,485,Healthy,152595.55
+184,Syndicate Ubiquitous Methodologies,Electronics,82.74,32,Warehouse D,46,Adequate,3806.04
+185,Innovate Efficient Models,Electronics,82.48,62,Warehouse B,328,Healthy,27053.440000000002
+186,Enhance Web-Enabled E-Tailers,Chemicals,237.61,14,Warehouse A,25,Healthy,5940.25
+187,Drive B2C Models,Raw Materials,354.94,99,Warehouse C,124,Adequate,44012.56
+188,Embrace Frictionless Eyeballs,Electronics,345.26,43,Warehouse B,402,Healthy,138794.52
+189,Grow Mission-Critical Synergies,Chemicals,332.29,35,Warehouse B,35,Reorder,11630.150000000001
+190,E-Enable Dot-Com Interfaces,Electronics,274.56,92,Warehouse B,300,Healthy,82368.0
+191,Facilitate Cross-Media Users,Raw Materials,414.18,19,Warehouse B,416,Healthy,172298.88
+192,Leverage Dot-Com E-Tailers,Packaging,397.35,86,Warehouse B,168,Healthy,66754.8
+193,Deploy E-Business Portals,Chemicals,460.99,66,Warehouse B,403,Healthy,185778.97
+194,Productize Dot-Com Schemas,Machinery,345.9,99,Warehouse A,141,Adequate,48771.899999999994
+195,Incentivize Open-Source E-Services,Raw Materials,252.73,73,Warehouse B,66,Reorder,16680.18
+196,Seize Innovative Web-Readiness,Electronics,301.03,65,Warehouse C,408,Healthy,122820.23999999999
+197,Whiteboard Efficient Markets,Raw Materials,303.84,13,Warehouse B,56,Healthy,17015.039999999997
+198,Deploy B2B E-Business,Packaging,481.15,83,Warehouse A,67,Reorder,32237.05
+199,Syndicate Robust Convergence,Electronics,499.79,96,Warehouse A,183,Healthy,91461.57
+200,Engage 24/365 Functionalities,Chemicals,24.91,32,Warehouse B,301,Healthy,7497.91
