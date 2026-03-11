@@ -17,7 +17,7 @@ random.seed(42)
 conn = mysql.connector.connect(
     host="localhost",
     user="root",          # change if different
-    password="yourpassword",  # change to your password
+    password="waren23.greg@student.cuk.ac.ke",  # change to your password
     database="supply_chain"
 )
 cursor = conn.cursor()
