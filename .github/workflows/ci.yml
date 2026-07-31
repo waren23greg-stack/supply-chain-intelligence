@@ -13,6 +13,10 @@ jobs:
       matrix:
         python-version: ["3.10", "3.11"]
 
+    # Tells Python where to look for your modules (intelligence_engine, backend, data_pipeline)
+    env:
+      PYTHONPATH: ${{ github.workspace }}
+
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v4
