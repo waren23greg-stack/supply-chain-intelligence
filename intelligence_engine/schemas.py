@@ -38,3 +38,18 @@ class SupplyChainState(BaseModel):
     market_signals: Dict[str, Any] = {}
     lead_time_variance_days: int = 0
     risk_alert: Optional[AgentRiskAlert] = None
+
+class SupplierDisruptionWebhook(BaseModel):
+    supplier_code: str = Field(..., description="Unique code of the supplier (e.g., SUP-TWN-01)")
+    disruption_type: str = Field(..., description="e.g., PORT_CONGESTION, GEOPOLITICAL, WEATHER, STRIKE")
+    severity: float = Field(..., description="Scale from 0.0 (cleared) to 1.0 (total shutdown)")
+    estimated_delay_days: int = Field(0, description="Reported or expected transit delay")
+    message: str = Field(..., description="Human readable details from the external feed")
+
+class WebhookResponse(BaseModel):
+    status: str
+    supplier_code: str
+    supplier_name: str
+    updated_risk_index: float
+    affected_skus_count: int
+    new_critical_alerts: List[AgentRiskAlert]
