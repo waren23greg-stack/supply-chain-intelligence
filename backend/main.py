@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
 from sqlalchemy import select
 from typing import List
-
+from backend.webhooks import router as webhooks_router
 from backend.db import get_db
 from data_pipeline.models import ERPInventoryTable, SupplierTable
 from intelligence_engine.schemas import SupplyChainState, SKUInventory, SupplierData
@@ -15,6 +15,8 @@ app = FastAPI(
     version=settings.VERSION,
     description="Multi-Agent Supply Chain Intelligence Engine API (PostgreSQL Powered)"
 )
+
+app.include_router(webhooks_router)
 
 # Enable CORS for front-end decision dashboards
 app.add_middleware(
