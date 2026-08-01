@@ -1,0 +1,11 @@
+supplier_id,supplier_name,country,region,otif_score,geopolitical_risk_index,avg_lead_time_days,lead_time_stddev,active
+SUP-00001,Meridian Components Ltd,Vietnam,Southeast Asia,0.87,0.03,21,2.0,True
+SUP-00002,Atlas Industrial GmbH,Germany,Western Europe,0.7,0.07,9,4.0,True
+SUP-00003,Sunrise Electronics Co.,China,East Asia,0.66,0.07,18,3.5,True
+SUP-00004,Andean Parts SA,Peru,South America,0.66,0.13,30,1.8,True
+SUP-00005,Nordic Precision AB,Sweden,Western Europe,0.85,0.45,4,5.1,True
+SUP-00006,Gulf Logistics FZE,UAE,Middle East,0.7,0.24,21,1.4,True
+SUP-00007,Cascade Fabrication Inc,USA,North America,0.98,0.2,9,2.8,True
+SUP-00008,Haryana Manufacturing Ltd,India,South Asia,0.77,0.2,20,5.3,True
+SUP-00009,Meridian Components Ltd,Vietnam,Southeast Asia,0.9,0.3,28,1.0,True
+SUP-00010,Atlas Industrial GmbH,Germany,Western Europe,0.75,0.35,27,4.0,True
