@@ -1,0 +1,11 @@
+sku_id,sku_name,supplier_id,units_on_hand,daily_burn_rate,reorder_point,reorder_qty,unit_cost_usd,category
+SKU-00001,"Pressure Valve 3/4""",SUP-03734,2375,53.1,66,263,320.28,Components
+SKU-00002,Circuit Board Rev-C,SUP-04555,3719,65.1,409,1401,312.41,Electronics
+SKU-00003,Stainless Coupling M12,SUP-03433,2192,13.0,383,1537,350.46,Fasteners
+SKU-00004,Hydraulic Seal Kit,SUP-02804,4380,49.0,643,1593,93.73,Seals
+SKU-00005,Servo Motor 24V,SUP-09126,1804,35.2,296,1502,123.22,Electronics
+SKU-00006,Carbon Fibre Panel 2mm,SUP-03753,267,57.9,77,1748,119.94,Materials
+SKU-00007,Bearing Assembly 608Z,SUP-09293,2582,20.8,236,535,246.11,Mechanical
+SKU-00008,Control Module v2.1,SUP-07518,1175,30.3,956,642,54.7,Electronics
+SKU-00009,"Pressure Valve 3/4""",SUP-04305,4793,56.1,571,977,336.05,Components
+SKU-00010,Stainless Coupling M12,SUP-02267,4179,30.6,244,1110,36.62,Fasteners
