@@ -1,0 +1,82 @@
+"""
+pytest configuration.
+In CI (APP_ENV=test), all OpenAI/LangChain LLM calls are automatically
+mocked so tests run without a real API key.
+"""
+import os
+import pytest
+from unittest.mock import AsyncMock, MagicMock, patch
+
+
+def pytest_configure(config):
+    config.addinivalue_line(
+        "markers", "llm: marks tests that make real LLM calls (skipped in CI)"
+    )
+
+
+@pytest.fixture(autouse=True)
+def mock_llm_in_ci():
+    """
+    When APP_ENV=test, patch OpenAI so no real calls are made.
+    Tag tests that need a real LLM with @pytest.mark.llm — CI skips them.
+    """
+    if os.getenv("APP_ENV") != "test":
+        yield
+        return
+
+    fake_response = MagicMock()
+    fake_response.choices = [
+        MagicMock(message=MagicMock(content="mocked llm response"))
+    ]
+
+    with patch("openai.OpenAI") as mock_sync, \
+         patch("openai.AsyncOpenAI") as mock_async:
+        mock_sync.return_value.chat.completions.create.return_value = fake_response
+        mock_async.return_value.chat.completions.create = AsyncMock(
+            return_value=fake_response
+        )
+        yield
+
+
+@pytest.fixture
+def sample_supplier():
+    return {
+        "supplier_id": "SUP-00001",
+        "supplier_name": "Meridian Components Ltd",
+        "country": "Vietnam",
+        "region": "Southeast Asia",
+        "otif_score": 0.87,
+        "geopolitical_risk_index": 0.38,
+        "avg_lead_time_days": 21,
+        "lead_time_stddev": 1.9,
+        "active": True,
+    }
+
+
+@pytest.fixture
+def sample_sku():
+    return {
+        "sku_id": "SKU-00001",
+        "sku_name": 'Pressure Valve 3/4"',
+        "supplier_id": "SUP-00001",
+        "units_on_hand": 420,
+        "daily_burn_rate": 18.5,
+        "reorder_point": 200,
+        "reorder_qty": 500,
+        "unit_cost_usd": 12.40,
+        "category": "Components",
+    }
+
+
+@pytest.fixture
+def sample_corridor():
+    return {
+        "corridor_id": "COR-00001",
+        "origin_region": "Southeast Asia",
+        "destination": "Rotterdam Port",
+        "transport_mode": "Sea",
+        "base_days": 23,
+        "current_friction_score": 0.35,
+        "delay_probability": 0.17,
+        "notes": "Seasonal monsoon congestion June-Sept",
+    }
