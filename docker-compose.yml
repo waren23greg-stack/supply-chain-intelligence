@@ -1,0 +1,57 @@
+version: '3.8'
+
+services:
+  # 1. PostgreSQL Relational Database Service
+  db:
+    image: postgres:16-alpine
+    container_name: supply_chain_db
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgrespassword
+      POSTGRES_DB: supply_chain_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d supply_chain_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # 2. Automated Database Seeding Task
+  seeder:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: supply_chain_seeder
+    command: python -m data_pipeline.ingestion
+    environment:
+      DATABASE_URL: postgresql+psycopg2://postgres:postgrespassword@db:5432/supply_chain_db
+    depends_on:
+      db:
+        condition: service_healthy
+
+  # 3. FastAPI Multi-Agent Intelligence Server
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: supply_chain_api
+    restart: always
+    environment:
+      DATABASE_URL: postgresql+psycopg2://postgres:postgrespassword@db:5432/supply_chain_db
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-demo-key-placeholder}
+      ENVIRONMENT: production
+    ports:
+      - "8000:8000"
+    depends_on:
+      seeder:
+        condition: service_completed_successfully
+      db:
+        condition: service_healthy
+
+volumes:
+  postgres_data:
+    name: supply_chain_pg_data
