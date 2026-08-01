@@ -28,7 +28,8 @@ jobs:
 
     env:
       DATABASE_URL: postgresql://supply_user:supply_pass@localhost:5432/supply_chain
-      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      # CI uses a dummy key so imports succeed; real LLM calls are skipped in tests
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY || 'sk-test-placeholder-for-ci' }}
       APP_ENV: test
 
     steps:
@@ -50,7 +51,7 @@ jobs:
           ruff check . --select E,W,F --ignore E501
 
       - name: Run tests
-        run: pytest tests/ -v --tb=short
+        run: pytest tests/ -v --tb=short -m "not llm"
 
   docker:
     name: Docker Build Check
