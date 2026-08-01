@@ -1,0 +1,11 @@
+corridor_id,origin_region,destination,transport_mode,base_days,current_friction_score,delay_probability,notes
+COR-00001,Southeast Asia,Rotterdam Port,Sea,23,0.08,0.06,Seasonal monsoon congestion June-Sept
+COR-00002,East Asia,Los Angeles Port,Sea,16,0.4,0.32,Port congestion ongoing; labour disputes
+COR-00003,Western Europe,UK/Ireland,Road+Ferry,1,0.28,0.04,Stable
+COR-00004,South America,Miami Port,Sea,12,0.26,0.4,Hurricane season Jul-Nov adds risk
+COR-00005,Middle East,Hamburg Port,Sea,16,0.34,0.39,Suez Canal alternate routing active
+COR-00006,North America,Domestic,Road,1,0.52,0.02,Stable
+COR-00007,South Asia,Felixstowe Port,Sea,24,0.45,0.28,Customs clearance delays reported
+COR-00008,Eastern Europe,Central Europe,Road,3,0.35,0.12,Stable
+COR-00009,South America,Rotterdam Port,Road+Sea,9,0.4,0.06,Road infrastructure risk
+COR-00010,East Asia,Los Angeles Port,Air,2,0.29,0.19,Premium; used for expedite scenarios
